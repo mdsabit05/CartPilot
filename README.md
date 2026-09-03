@@ -20,6 +20,9 @@ The MVP is deliberately honest: the catalog is local demo data, the deterministi
 7. `Proceed to checkout`
 8. With Razorpay test keys configured, click **Pay** to open Razorpay Test Mode. Without keys, the UI remains a demo checkout.
 
+## Agent audit trail
+The UI exposes a concise audit trail of commerce actions without exposing hidden reasoning. Cart changes and payment handoff are visible, and the demo payment requires an explicit user action. This keeps money-related behavior explainable, bounded, and gated for the buildathon demo.
+
 ## Why it is agentic
 The agent maps natural-language intent to bounded commerce actions instead of acting as a generic chatbot:
 
